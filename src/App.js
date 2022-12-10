@@ -1,6 +1,6 @@
 import "./styles/App.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Header, Footer } from "./components/index";
+import { Footer } from "./components/index";
 import {
     Home,
     Page1,
@@ -15,31 +15,30 @@ import {
 function App() {
     return (
         <>
-            <Header />
             <BrowserRouter>
                 <Switch>
                     <Route path="/" exact>
                         <Home />
                     </Route>
-                    <Route path="/page1" exact>
+                    <Route path="/1" exact>
                         <Page1 />
                     </Route>
-                    <Route path="/page2" exact>
+                    <Route path="/2" exact>
                         <Page2 />
                     </Route>
-                    <Route path="/page3" exact>
+                    <Route path="/3" exact>
                         <Page3 />
                     </Route>
-                    <Route path="/page4" exact>
+                    <Route path="/4" exact>
                         <Page4 />
                     </Route>
-                    <Route path="/page5" exact>
+                    <Route path="/5" exact>
                         <Page5 />
                     </Route>
-                    <Route path="/page6" exact>
+                    <Route path="/6" exact>
                         <Page6 />
                     </Route>
-                    <Route path="/page7" exact>
+                    <Route path="/7" exact>
                         <Page7 />
                     </Route>
                 </Switch>

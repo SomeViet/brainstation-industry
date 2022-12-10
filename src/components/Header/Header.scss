@@ -1,0 +1,16 @@
+@use "../../styles/partials/variables" as *;
+
+.header {
+    max-width: $displaywidth;
+    display: flex;
+
+    &__link {
+        text-decoration: none;
+        color: $black;
+        margin: 12px 48px;
+
+        &--hidden {
+            display: none;
+        }
+    }
+}
