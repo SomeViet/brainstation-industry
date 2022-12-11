@@ -1,7 +1,7 @@
 @use "../../styles/partials/typekit" as *;
 @use "../../styles/partials/variables" as *;
 
-.pagetwo {
+.pageseven-active {
     display: flex;
     max-width: $displaywidth;
     width: 100vw;
@@ -12,7 +12,7 @@
 
     &__header {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         max-width: $displaywidth;
         width: 100vw;
         padding: 20px;
@@ -32,46 +32,40 @@
         }
     }
 
-    &__main-image {
-        width: 350px;
-        height: 370px;
-        margin: 30px 20px;
-    }
-
-    &__section-header {
+    &__hero-header {
         font-size: 26px;
-        align-self: flex-start;
-        margin: 0 20px;
+        margin: 80px 20px 16px 20px;
     }
 
-    &__sub-header {
+    &__hero-subheader {
+        font-size: 14px;
+        margin: 0 20px 20px 20px;
         align-self: flex-start;
-        font-size: 20px;
-        margin: 0 20px;
     }
 
-    &__body {
-        margin: 15px 20px;
+    &__button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 20px;
         flex-grow: 1;
     }
 
     &__footer {
         display: flex;
-        max-width: $displaywidth;
-        width: 100vw;
-        padding: 20px;
-        justify-content: flex-end;
-    }
-
-    &__dots {
-        height: 10px;
-        align-self: center;
+        flex-direction: column;
     }
 
     &__next {
-        margin-left: 110px;
+        font-size: 13px;
+        font-weight: bold;
+        align-self: flex-end;
+        margin-bottom: 12px;
         text-decoration: none;
         color: $black;
-        align-self: center;
+    }
+
+    &__line {
+        margin-bottom: 50px;
     }
 }

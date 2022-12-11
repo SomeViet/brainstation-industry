@@ -6,9 +6,13 @@ import {
     Page1,
     Page2,
     Page3,
+    Page4,
     Page5,
+    Page5active,
     Page6,
     Page7,
+    Page7active,
+    Page8,
 } from "./pages/index";
 
 function App() {
@@ -29,15 +33,33 @@ function App() {
                         <Page3 />
                     </Route>
                     <Route path="/4" exact>
-                        <Signup />
+                        <Page4 />
                     </Route>
                     <Route path="/5" exact>
                         <Page5 />
+                    </Route>
+                    <Route path="/5active" exact>
+                        <Page5active />
                     </Route>
                     <Route path="/6" exact>
                         <Page6 />
                     </Route>
                     <Route path="/7" exact>
+                        <Page7 />
+                    </Route>
+                    <Route path="/7active" exact>
+                        <Page7active />
+                    </Route>
+                    <Route path="/8" exact>
+                        <Page8 />
+                    </Route>
+                    <Route path="/signup" exact>
+                        <Signup />
+                    </Route>
+                    <Route path="/10" exact>
+                        <Page7 />
+                    </Route>
+                    <Route path="/11" exact>
                         <Page7 />
                     </Route>
                 </Switch>

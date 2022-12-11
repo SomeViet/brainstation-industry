@@ -1,0 +1,11 @@
+@use "../../styles/partials/typekit" as *;
+@use "../../styles/partials/variables" as *;
+
+.button-three-active {
+    width: 350px;
+    color: white;
+    background-color: #bbbbbb;
+    height: 68px;
+    font-size: 26px;
+    border: 2px solid black;
+}

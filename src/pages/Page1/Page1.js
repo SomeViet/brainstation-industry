@@ -16,7 +16,7 @@ export default withRouter(function Page1() {
                             className="pageone__header-logo"
                         />
                     </Link>
-                    <Link to="/7" className="pageone__header-skip">
+                    <Link to="/9" className="pageone__header-skip">
                         <div>Skip</div>
                     </Link>
                 </div>

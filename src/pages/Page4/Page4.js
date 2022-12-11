@@ -1,14 +1,18 @@
-import { Header } from "../../components/index";
-import { withRouter } from "react-router-dom";
+import "./Page4.scss";
+import { Link } from "react-router-dom";
+import { ButtonOne } from "../../components/index";
 
-export default withRouter(function page4(props) {
-    let data = props.match.path;
-    let pageNumber = parseInt(data.slice(-1));
-
+export default function page4() {
     return (
         <>
-            <Header pageNumber={pageNumber} />
-            <div>This is page4</div>
+            <main className="pagefour">
+                <h1 className="pagefour__header">
+                    Before we begin, tell us about yourself
+                </h1>
+                <Link to="/5">
+                    <ButtonOne text={"CONTINUE"} />
+                </Link>
+            </main>
         </>
     );
-});
+}

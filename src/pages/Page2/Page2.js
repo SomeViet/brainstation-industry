@@ -1,10 +1,10 @@
-import { withRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import headerLogo from "../../assets/images/headerlogo.png";
 import mainImage from "../../assets/images/placeholder1.png";
 import dot2 from "../../assets/images/dot2.png";
 import "./Page2.scss";
 
-export default withRouter(function Page2() {
+export default function Page2() {
     return (
         <>
             <main className="pagetwo">
@@ -16,7 +16,7 @@ export default withRouter(function Page2() {
                             className="pagetwo__header-logo"
                         />
                     </Link>
-                    <Link to="/7" className="pagetwo__header-skip">
+                    <Link to="/9" className="pagetwo__header-skip">
                         <div>Skip</div>
                     </Link>
                 </div>
@@ -42,4 +42,4 @@ export default withRouter(function Page2() {
             </main>
         </>
     );
-});
+}
