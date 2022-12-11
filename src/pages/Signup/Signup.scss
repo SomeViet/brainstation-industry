@@ -1,0 +1,23 @@
+@use "../../styles/partials/typekit" as *;
+@use "../../styles/partials/variables" as *;
+
+.signup {
+    background-color: $background-color;
+    max-width: $displaywidth;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: $displayheight;
+
+    &__header {
+        @include pageheader;
+        align-self: center;
+    }
+
+    &__form {
+        &-container {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

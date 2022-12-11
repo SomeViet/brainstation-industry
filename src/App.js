@@ -1,12 +1,11 @@
 import "./styles/App.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Footer } from "./components/index";
 import {
+    Signup,
     Home,
     Page1,
     Page2,
     Page3,
-    Page4,
     Page5,
     Page6,
     Page7,
@@ -30,7 +29,7 @@ function App() {
                         <Page3 />
                     </Route>
                     <Route path="/4" exact>
-                        <Page4 />
+                        <Signup />
                     </Route>
                     <Route path="/5" exact>
                         <Page5 />
@@ -43,7 +42,6 @@ function App() {
                     </Route>
                 </Switch>
             </BrowserRouter>
-            <Footer />
         </>
     );
 }

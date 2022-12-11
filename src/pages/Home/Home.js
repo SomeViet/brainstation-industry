@@ -1,12 +1,25 @@
-import { Header } from "../../components/index";
-import { withRouter } from "react-router-dom";
+import HomeImage from "../../assets/images/homeimage.svg";
+import "./Home.scss";
+import { Link } from "react-router-dom";
+import { ButtonOne, ButtonTwo } from "../../components/index";
 
-export default withRouter(function Home() {
-    let pageNumber = 0;
+export default function Home() {
     return (
         <>
-            <Header pageNumber={pageNumber} />
-            <div>This is the home page</div>
+            <main className="home">
+                <img
+                    src={HomeImage}
+                    alt="homeimagelogo"
+                    className="home__logo"
+                />
+                <h1 className="home__header">Buy & Sell Cards</h1>
+                <Link to="/1" className="home__button1">
+                    <ButtonOne text="GET STARTED" />
+                </Link>
+                <div className="home__button2">
+                    <ButtonTwo text="ALREADY A MEMBER? SIGN IN" />
+                </div>
+            </main>
         </>
     );
-});
+}

@@ -1,0 +1,11 @@
+@use "../../styles/partials/typekit" as *;
+@use "../../styles/partials/variables" as *;
+
+.button-two {
+    width: 350px;
+    background-color: $background-color;
+    min-height: 68px;
+    font-size: 20px;
+    outline: none;
+    border: solid 1px $black;
+}

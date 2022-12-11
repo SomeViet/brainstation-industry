@@ -1,0 +1,11 @@
+@use "../../styles/partials/typekit" as *;
+@use "../../styles/partials/variables" as *;
+
+.button-one {
+    width: 350px;
+    color: white;
+    background-color: #888888;
+    height: 68px;
+    font-size: 26px;
+    border: none;
+}

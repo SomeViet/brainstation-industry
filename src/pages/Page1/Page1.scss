@@ -1,0 +1,76 @@
+@use "../../styles/partials/typekit" as *;
+@use "../../styles/partials/variables" as *;
+
+.pageone {
+    display: flex;
+    max-width: $displaywidth;
+    width: 100vw;
+    height: $displayheight;
+    background-color: $background-color;
+    flex-direction: column;
+    align-items: center;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        max-width: $displaywidth;
+        width: 100vw;
+        padding: 20px;
+        align-self: center;
+
+        &-logo {
+            width: 80px;
+            height: 56px;
+        }
+
+        &-skip {
+            text-decoration: none;
+            color: $black;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__main-image {
+        width: 350px;
+        height: 370px;
+        margin: 30px 20px;
+    }
+
+    &__section-header {
+        font-size: 26px;
+        align-self: flex-start;
+        margin: 0 20px;
+    }
+
+    &__sub-header {
+        align-self: flex-start;
+        font-size: 20px;
+        margin: 0 20px;
+    }
+
+    &__body {
+        margin: 15px 20px;
+        flex-grow: 1;
+    }
+
+    &__footer {
+        display: flex;
+        max-width: $displaywidth;
+        width: 100vw;
+        padding: 20px;
+        justify-content: flex-end;
+    }
+
+    &__dots {
+        height: 10px;
+        align-self: center;
+    }
+
+    &__next {
+        margin-left: 110px;
+        text-decoration: none;
+        color: $black;
+        align-self: center;
+    }
+}
