@@ -16,9 +16,9 @@ export default function Home() {
                 <Link to="/1" className="home__button1">
                     <ButtonOne text="GET STARTED" />
                 </Link>
-                <div className="home__button2">
+                <Link to="/11" className="home__button2">
                     <ButtonTwo text="ALREADY A MEMBER? SIGN IN" />
-                </div>
+                </Link>
             </main>
         </>
     );

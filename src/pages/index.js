@@ -1,4 +1,5 @@
 export { default as Signup } from "./Signup/Signup";
+export { default as Signupactive } from "./Signupactive/Signupactive";
 export { default as Home } from "./Home/Home";
 export { default as Page1 } from "./Page1/Page1";
 export { default as Page2 } from "./Page2/Page2";
@@ -10,3 +11,6 @@ export { default as Page6 } from "./Page6/Page6";
 export { default as Page7 } from "./Page7/Page7";
 export { default as Page7active } from "./Page7active/Page7active";
 export { default as Page8 } from "./Page8/Page8";
+export { default as Page9 } from "./Page9/Page9";
+export { default as Page10 } from "./Page10/Page10";
+export { default as Page11 } from "./Page11/Page11";

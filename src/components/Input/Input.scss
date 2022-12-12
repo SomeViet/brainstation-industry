@@ -8,9 +8,17 @@
 
     &__label {
         @include label;
+        align-self: flex-start;
+        margin: 0 20px;
     }
 
     &__field {
         width: 350px;
+        margin: 0 20px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+        font-size: 12px;
+        padding: 13px 18px;
     }
 }

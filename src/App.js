@@ -2,6 +2,7 @@ import "./styles/App.scss";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {
     Signup,
+    Signupactive,
     Home,
     Page1,
     Page2,
@@ -13,6 +14,9 @@ import {
     Page7,
     Page7active,
     Page8,
+    Page9,
+    Page10,
+    Page11,
 } from "./pages/index";
 
 function App() {
@@ -56,11 +60,17 @@ function App() {
                     <Route path="/signup" exact>
                         <Signup />
                     </Route>
+                    <Route path="/signupactive" exact>
+                        <Signupactive />
+                    </Route>
+                    <Route path="/9" exact>
+                        <Page9 />
+                    </Route>
                     <Route path="/10" exact>
-                        <Page7 />
+                        <Page10 />
                     </Route>
                     <Route path="/11" exact>
-                        <Page7 />
+                        <Page11 />
                     </Route>
                 </Switch>
             </BrowserRouter>

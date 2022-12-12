@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import line3 from "../../assets/images/line3.png";
 import "./Page7.scss";
 
-export default function page7() {
+export default function Page7() {
     return (
         <>
             <main className="pageseven">

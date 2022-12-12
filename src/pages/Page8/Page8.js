@@ -2,7 +2,7 @@ import "./Page8.scss";
 import { Link } from "react-router-dom";
 import { ButtonOne, ButtonTwo } from "../../components/index";
 
-export default function page8() {
+export default function Page8() {
     return (
         <>
             <main className="pageeight">
